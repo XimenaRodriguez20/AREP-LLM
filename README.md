@@ -44,21 +44,19 @@ En este laboratorio, exploraremos como trabajar con Python y la API de OpenAI pa
 
 ### Escriba un programa para enviar mensajes a Chatgpt y recuperar respuestas.
     
-    ~~~                 
-        LangChain.py
-    ~~~ 
+  ~~~                 
+      LangChain.py
+  ~~~ 
 
-
+En esta clase necesitamos utilizar una llave que se nos genera por parte de la Api de OpenAI y se hace uso de la biblioteca Lang Chain para interactuar con OpenAI y enviar las solicitudes a Chatgpt. 
 
 ![image](https://github.com/XimenaRodriguez20/AREP-LLM/assets/123812926/ac5b4ebe-19bc-4570-a0cc-0cd9057e39d9)
 
-
-
 ### Escriba un RAG simple utilizando una base de datos vectorial en memoria
 
-    ~~~                 
-        RAG.py
-    ~~~ 
+  ~~~                 
+      RAG.py
+  ~~~ 
 
 En esta clase necesitamos utilizar una llave que se nos genera por parte de la Api de OpenAI pero en este caso la informacion que se le va a consultar no va a ser de nuestro interes ni directamente proporcionado por nosotros sino que en este caso se alimenta del siguiente repositorio <"https://lilianweng.github.io/posts/2023-06-23-agent/">, por lo cual la pregunta que se hace va referente a los datos que nos brinda este. 
 
@@ -66,9 +64,9 @@ En esta clase necesitamos utilizar una llave que se nos genera por parte de la A
 
 ### Escriba un RAG simple utilizando Pinecone
 
-    ~~~                 
-        Pinecone.py
-    ~~~ 
+  ~~~                 
+      Pinecone.py
+  ~~~ 
 
 Se crea una cuenta en [Pinecone](https://app.pinecone.io/organizations/-NvDhN1HGcD4EGX_nFND/projects/c88cc521-9391-4782-9b5e-05bc962020ae/indexes), para poder generar La base de datos vectorial que se va a usar para alimentar la IA.
 
